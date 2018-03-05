@@ -1,6 +1,6 @@
 # sketch-bacon-ipsum
 
-Credits to [Bacon Ipsum](https://baconipsum.com/json-api/) for the API.
+Credits to [Bacon Ipsum](https://baconipsum.com/json-api/) for the API and image.
 
 Since this plugin uses `async`/`await`, please make sure your version of Node is up to date.
 

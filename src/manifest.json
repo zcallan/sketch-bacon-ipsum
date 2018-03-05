@@ -1,7 +1,9 @@
 {
   "compatibleVersion": 3,
   "bundleVersion": 1,
-  "icon": "icon.png",
+  "author": "Callan Delbridge",
+  "homepage": "https://github.com/zcallan/sketch-bacon-ipsum",
+  "icon": "icon.jpg",
   "commands": [
     {
       "name": "Populate text",

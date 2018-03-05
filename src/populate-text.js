@@ -5,7 +5,7 @@ export default async context => {
   /* Make sure there is at least 1 layer to fill. */
   if ( !selectedCount ) {
     context.document.showMessage( '❌ Cannot perform Bacon Ipsum - No layers selected!' );
-    log( 'Cannot perform Bacon Ipsum - No layers selected!' );
+    log( '❌ Failed - No layers selected!' );
     return false;
   }
 
@@ -17,4 +17,7 @@ export default async context => {
   selectedLayers.forEach(( layer, index ) => {
     layer.stringValue = baconIpsum[index];
   });
+
+  context.document.showMessage( '🥓 Enjoy your bacon! 🥓' );
+  log( '✅ Complete!' );
 }
