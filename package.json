@@ -21,5 +21,7 @@
   "devDependencies": {
     "@skpm/builder": "^0.4.0"
   },
-  "author": "zcallan\n <kaln.delbridge@hotmail.com\n>"
+  "author": "zcallan\n <kaln.delbridge@hotmail.com\n>",
+  "repository": "https://github.com/zcallan/sketch-bacon-ipsum",
+  "description": "A simple & easy Bacon Ipsum text generator for Sketch."
 }
