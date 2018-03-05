@@ -4,15 +4,15 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Populate text",
+      "identifier": "populate-text",
+      "script": "./populate-text.js"
     }
   ],
   "menu": {
-    "title": "sketch-bacon-ipsum",
+    "title": "Bacon Ipsum",
     "items": [
-      "my-command-identifier"
+      "populate-text"
     ]
   }
 }
