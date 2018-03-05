@@ -19,7 +19,9 @@
     "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
-    "@skpm/builder": "^0.4.0"
+    "@skpm/builder": "^0.4.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2017": "^6.24.1"
   },
   "author": "zcallan\n <kaln.delbridge@hotmail.com\n>",
   "repository": "https://github.com/zcallan/sketch-bacon-ipsum",
