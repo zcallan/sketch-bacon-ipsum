@@ -1,12 +1,22 @@
 # sketch-bacon-ipsum
 
-Credits to [Bacon Ipsum](https://baconipsum.com/json-api/) for the API and image.
+_Credits to [Bacon Ipsum](https://baconipsum.com) for the API and image._
 
----
+## Install
+
+Download the latest release of this plugin under [the Releases tab in this repository](https://github.com/zcallan/sketch-bacon-ipsum/releases/latest).
+
+Unzip the downloaded file, and double click on the `.sketchplugin` file.
+
+You should automatically see `Bacon Ipsum` under your Plugins menu in Sketch, where by clicking it you can populate any piece of text with some juicy Bacon Ipsum.
+
+Let me know if there are any issues.
+
+## Development
 
 _This plugin was created using `skpm`. For a detailed explanation on how things work, checkout the [skpm Readme](https://github.com/skpm/skpm/blob/master/README.md)._
 
-## Usage
+### Usage
 
 Install the dependencies
 
@@ -32,9 +42,9 @@ Additionally, if you wish to run the plugin every time it is built:
 npm run start
 ```
 
-## Custom Configuration
+### Custom Configuration
 
-### Babel
+#### Babel
 
 To customize Babel, you have two options:
 
@@ -42,7 +52,7 @@ To customize Babel, you have two options:
 
 * If you'd like to modify or add to the existing Babel config, you must use a `webpack.skpm.config.js` file. Visit the [Webpack](#webpack) section for more info.
 
-### Webpack
+#### Webpack
 
 To customize webpack create `webpack.skpm.config.js` file which exports function that will change webpack's config.
 
@@ -59,7 +69,7 @@ module.exports = function (config, isPluginCommand) {
 }
 ```
 
-## Debugging
+### Debugging
 
 To view the output of your `console.log`, you have a few different options:
 
@@ -75,3 +85,6 @@ skpm log
 
 The `-f` option causes `skpm log` to not stop when the end of logs is reached, but rather to wait for additional data to be appended to the input
 
+## License
+
+This project is licensed under the terms of the MIT license.
